@@ -1,0 +1,13 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+joblib==1.5.3
+numpy==2.4.4
+pandas==3.0.2
+scikit-learn==1.8.0
+scipy==1.17.1
+python-dotenv==1.2.2
+
+# Optional - only required if you want the /generate and
+# /generate-and-compare endpoints (AI-suggested options) to work.
+google-genai==1.3.0
